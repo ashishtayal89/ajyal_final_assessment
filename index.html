@@ -4,5 +4,31 @@
   </head>
   <body>
     <script src="./index.js"></script>
+    <form id="form" action="employees.html">
+      <br />
+      <div>
+        <label>USERNAME :</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          placeholder="Username"
+        />
+      </div>
+      <div>
+        <label>PASSWORD :</label>
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+        />
+      </div>
+      <div>
+        <button type="submit" id="submit" onclick="doLogin()">SUBMIT</button>
+      </div>
+      <div id="promise-success"></div>
+      <div id="promise-fail"></div>
+    </form>
   </body>
 </html>

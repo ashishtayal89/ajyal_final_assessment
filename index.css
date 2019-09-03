@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+}
+
+#form {
+  background: rgba(226, 98, 173, 0.5);
+  border-radius: 2em;
+  font-family: "Oswald", sans-serif;
+  color: rgb(160, 56, 129);
+}
+div {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+label {
+  font-weight: 500;
+  margin: 0 20px;
+  font-size: 20px;
+}
+input {
+  border-radius: 10px;
+  width: 250px;
+  height: 35px;
+  background: lavender;
+  outline: none;
+  font-size: 20px;
+  padding: 0 5px;
+}
+button {
+  width: 70%;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 12px;
+  background: rgb(230, 214, 227);
+  color: rgb(150, 46, 119);
+  cursor: pointer;
+  outline: none;
+}
