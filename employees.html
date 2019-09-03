@@ -3,6 +3,16 @@
     <link rel="stylesheet" href="./employees.css" />
   </head>
   <body>
+    <p>Sorting By</p>
+    <div class="select" id="select" onchange="sort()">
+      <select name="slct" id="slct">
+        <option id="ID" value="0">ID</option>
+        <option id="salary" onchange="sortBySalary()" value="1">Salary</option>
+        <option id="age" value="2">Age</option>
+      </select>
+    </div>
+    <br />
+    <div id="container"></div>
     <script src="./employees.js"></script>
   </body>
 </html>
