@@ -4,9 +4,13 @@
 
 1. **Team ConnecTech**
    1. Clone the repository using the below command
-      `git clone https://github.com/ashishtayal89/ajyal_final_assessment.git`
+      ```javascript
+      git clone https://github.com/ashishtayal89/ajyal_final_assessment.git
+      ```
    2. Checkout your branch using the below command
-      `git checkout connecTech`
+      ```javascript
+      git checkout connecTech
+      ```
    3. Start working on the test steps.
    4. Once done merge your code with the collaborator.
    5. The collaborator finally adds, commits and pushes the code to the remote repository using the below commands
@@ -17,9 +21,13 @@
       ```
 2. **Team ETeach**
    1. Clone the repository using the below command
-      `git clone https://github.com/ashishtayal89/ajyal_final_assessment.git`
+      ```javascript
+      git clone https://github.com/ashishtayal89/ajyal_final_assessment.git
+      ```
    2. Checkout your branch using the below command
-      `git checkout ETeach`
+      ```javascript
+      git checkout ETeach
+      ```
    3. Start working on the test steps.
    4. Once done merge your code with the collaborator.
    5. The collaborator finally adds, commits and pushes the code to the remote repository using the below commands
@@ -30,9 +38,13 @@
       ```
 3. **Team Advocates**
    1. Clone the repository using the below command
-      `git clone https://github.com/ashishtayal89/ajyal_final_assessment.git`
+      ```javascript
+      git clone https://github.com/ashishtayal89/ajyal_final_assessment.git
+      ```
    2. Checkout your branch using the below command
-      `git checkout Advocates`
+      ```javascript
+      git checkout Advocates
+      ```
    3. Start working on the test steps.
    4. Once done merge your code with the collaborator.
    5. The collaborator finally adds, commits and pushes the code to the remote repository using the below commands
