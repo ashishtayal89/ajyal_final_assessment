@@ -2,11 +2,19 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <title>Login Tab</title>
+    <link rel="stylesheet" type="text/css" href="style-login.css" />
+    <title>Login Page</title>
   </head>
 
   <body oncontextmenu="return false">
+    <!-- <div class="body"></div> -->
+    <div class="grad"></div>
+    <div class="header">
+      <div>
+        <span><strong>Shop Today! </strong></span>
+      </div>
+    </div>
+    <br />
     <form name="login">
       <div class="login">
         <input type="text" placeholder="Enter the username" id="userid" /><br />
@@ -16,10 +24,8 @@
           id="pswrd"
         /><br />
         <input type="button" onclick="validateLogin()" value="Login" />
-        <p id="displayMessage"></p>
       </div>
     </form>
-
-    <script src="index.js"></script>
+    <script src="login-js.js"></script>
   </body>
 </html>

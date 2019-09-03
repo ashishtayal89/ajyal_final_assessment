@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Salem's Online Store!</title>
+  </link>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div id="flex-container-header">
+    <div id="flex-item-left-panel-header">
+      <img alt="logo" src="./assets/logo.png">
+    </div>
+    <div id="flex-item-middle-panel-header">
+      <input onkeyup="filterdProducts()" type="text" id= "searchTerm" class="searchTerm"  style="text-align: center" placeholder="What are you looking for?">
+      <button  type="submit" id= "searchButton" class="searchButton">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+    <div id="flex-item-right-panel-header">
+      <div class="welcomeMessage">
+        <i class="material-icons">person_outline</i>
+        <span><span id = "userID"></span> </span>
+      </div>
+      <div class="cart">
+        <i class="material-icons">add_shopping_cart</i>
+        <span id = "cart-counter"></span>
+      </div>
+      <div class="cart">
+          <i onclick=logout() class="material-icons">logout</i>
+          <span> </span>
+        </div>
+    </div>
+  </div>
+  <div class="navbar">
+    <a href="#home">Home</a>
+    <div class="dropdown">
+      <button class="dropbtn">Categories
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="#">Mobile Phones</a>
+        <a href="#">TV's & Accessories</a>
+        <a href="#">Bluetooth Speakers</a>
+        <a href="#">Storage Drives</a>
+        <a href="#">Headphones</a>
+        <a href="#">Laptops</a>
+        <a href="#">PC Accessories</a>
+        <a href="#">Kitchen Tools</a>
+
+      </div>
+    </div>
+    <a href="#todays-deal">Today's Deals</a>
+    <a href="#gift-cards">Gift Cards</a>
+    <a href="#registry">Registry</a>
+    <a href="#help">Help</a>
+
+  </div>
+
+  <div id="flex-container">
+    <div id="flex-item-left-panel">
+      <form id="product-form">
+          <h4 align="center" id="product-header" style="font-family:verdana;">
+              Products Filter
+            </h4>
+            <div class="filter">
+              <h5 style="font-family:verdana;">Search By Popular <strong>Brands</strong> </h5>
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                LG</label>
+              <br />
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                Toshiba</label>
+              <br />
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                DxRacer</label>
+              <br />
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                HP</label>
+              <br />
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                Dell</label>
+              <br />
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                Apple</label>
+              <br />
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                Samsung</label>
+              <br />
+            </div>
+            <div class="filter">
+              <h5 style="font-family:verdana;">Search By Your Favorite <strong>Color</strong></h5>
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                Red</label>
+              <br />
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                Green</label>
+              <br />
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                White</label>
+              <br />
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                Black</label>
+              <br />
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                Blue</label>
+              <br />
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                Yellow</label>
+              <br />
+              <label class="container">
+                <input type="checkbox" />
+                <span class="checkmark"></span>
+                Orange</label>
+              <br />
+            </div>
+            <div class="filter">
+              <h5 style="font-family:verdana;">Search By Your <strong>Budget</strong> Price (AED)</h5>
+              <form action="/action_page.php">
+                From
+                <br />
+                <input type="number" />
+                <br />
+                To
+                <br />
+                <input type="number" /><br /><br />
+                <input class="buttonstyle" type="submit" name="submit" Value="Submit"/>        </form>
+            </div>
+            <div class="filter">
+              <h5 style="font-family:verdana;">
+                Search By The Available <strong>Discount</strong> Percentages
+              </h5>
+              <form action="/action_page.php">
+                Search by discount amount %:
+                <input type="number" /><br />
+                <br />
+                <input class="buttonstyle" type="submit" name="submit" Value="Submit"/>        </form>
+              </form>
+            </div>
+          </div>
+    <div id="flex-item-middle-panel">
+    </div>
+    <div id="flex-item-right-panel">
+      <h3 style="font-weight: bold;">Want to advertise something?</h3>
+      <p>Contact us for more information!</p>
+      <h3 style="font-weight: bold;">FAQ</h3>
+      <div class="popup" onclick="popupFunction()">Click me to toggle the FAQ!
+          <span class="popuptext" id="myPopup">Q1) How long will it take to get my delivery? <br> 3 to 7 Working Days <br> Q2) SAMPLE QUESTION <br> Q3) SAMPLE QUESTION</span>
+        </div>
+      <h3 style="font-weight: bold;">How you can be part of this site?</h3>
+     Click <a href="feedback-page.html">here</a> to post your suggestions in order to improve our website! be part of the development!
+
+      </div>
+
+
+  <div class="footer">
+    <p>Hope you enjoyed your shopping experience with us!</p>
+    <p>If you have any feedback or suggestions to improve our website, contact us or leave your e-mail below and you
+      will get contacted soon!</p>
+    <p>Designed By Salem Khalifa Alkaabi</p>
+    <form class="form-inline">Get deals:
+      <input type="email" class="form-control" size="70" placeholder="Email Address">
+      <input class="buttonstyle" type="submit" name="submit" Value="Sign Up For The Newsletter"/>        </form>
+
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

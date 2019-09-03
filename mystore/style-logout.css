@@ -1,0 +1,46 @@
+body {
+  height: 100%;
+  background-image: url("./assets/login-background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#div_container {
+  width: 100%;
+  height: 100%;
+
+  font-size: 30px;
+  text-align: left;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  /* padding: 100px 0; */
+}
+#div_container2 {
+  /* width: 100%;
+  height: 100%; */
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  /* padding: 70px 0; */
+}
+
+/* #div_container3 {
+  background-image: url("./assets/seeyouagain.png");
+  width: 100%;
+  height: 100%;
+  font-size: 50px;
+  text-align: center;
+  padding: 70px 0;
+} */
+.spanFONT {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

@@ -2,9 +2,14 @@
   <head>
     <link rel="stylesheet" href="./employees.css" />
   </head>
-
   <body>
-    <div>sss</div>
-    <script src="./employees.js"></script>
+    <div class="dropdown">
+      <button id="employeeId" onclick="sortId()">Id</button>
+      <button id="employeeSalary" onclick="sortSalary()">Salary</button>
+      <button id="employeeAge" onclick="sortAge()">Age</button>
+    </div>
+
+    <div id="container"></div>
+    <script src="employees.js"></script>
   </body>
 </html>

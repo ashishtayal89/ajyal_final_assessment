@@ -2,13 +2,53 @@ html {
   height: 100%;
   width: 100%;
 }
+body {
+  background-image: url("./assets/background2.gif");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+.body {
+  position: fixed;
+  /* overflow-y: scroll; */
+  width: 100%;
+  top: -1px;
+  left: -1px;
+
+  /* background-image: url("./assets/background3.gif"); */
+  background-color: #a18d6c;
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.header {
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 90px;
+  /* top: calc(50% - 35px);
+  left: calc(50% - 255px); */
+}
+
+.header div {
+  float: left;
+  color: black;
+  font-family: "Exo", sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.header div span {
+  color: black !important;
+}
 
 .login {
   position: absolute;
   margin-left: 40%;
   margin-top: 120px;
   /* top: calc(50% - 75px);
-    left: calc(50% - 50px); */
+  left: calc(50% - 50px); */
   height: 150px;
   width: 350px;
   padding: 10px;

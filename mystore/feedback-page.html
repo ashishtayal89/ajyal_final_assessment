@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="feedback-page.css" />
+    <body>
+      <!-- <div class="imagebg"></div> -->
+      <div id="container">
+        <h2>Feedback</h2>
+        <p>
+          Please provide your feedback below:
+        </p>
+        <form role="form" method="post" id="reused_form">
+          <div class="row">
+            <div>
+              <p id="rateOverall">How do you rate your overall experience?</p>
+              <p>
+                <label class="radio-inline">
+                  <input
+                    type="radio"
+                    name="experience"
+                    id="radio_experience"
+                    value="bad"
+                  />
+                  Bad
+                </label>
+
+                <label class="radio-inline">
+                  <input
+                    type="radio"
+                    name="experience"
+                    id="radio_experience"
+                    value="average"
+                  />
+                  Average
+                </label>
+
+                <label class="radio-inline">
+                  <input
+                    type="radio"
+                    name="experience"
+                    id="radio_experience"
+                    value="good"
+                  />
+                  Good
+                </label>
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label id="comments" for="comments"> Comments:</label>
+              <textarea
+                class="form-control"
+                type="textarea"
+                name="comments"
+                id="comments"
+                placeholder="Your Comments"
+                maxlength="6000"
+                rows="7"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div>
+              <label for="name"> Your Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="inputLabel"
+                name="name"
+                required
+              />
+            </div>
+            <div>
+              <label for="email"> Email:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="inputLabel"
+                name="email"
+                required
+              />
+            </div>
+            <br />
+          </div>
+        </form>
+        <button class="buttonstyle" id="main-btn" onclick="productsPage()">
+          Back
+        </button>
+        <button class="buttonstyle" id="main-btn" onclick="loginPage()">
+          Login Page
+        </button>
+        <button
+          class="buttonstyle"
+          onclick="postbtn()"
+          id="post-btn"
+          type="submit"
+          class="btn btn-lg btn-warning btn-block"
+        >
+          Post
+        </button>
+      </div>
+
+      <script src="script.js"></script>
+    </body>
+  </head>
+</html>
