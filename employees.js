@@ -39,7 +39,7 @@ function sortId() {
   document.getElementById("container").innerHTML = "";
   var employeeDataId = [...employeeData];
   createTables(
-    employeeDataIdCopy.sort(function(a, b) {
+    employeeDataId.sort(function(a, b) {
       return a.id - b.id;
     })
   );
