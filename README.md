@@ -2,7 +2,45 @@
 
 ## SETUP
 
-1.
+1. **Group1 ConnecTech**
+   1. Clone the repository using the below command
+      `git clone https://github.com/ashishtayal89/ajyal_final_assessment.git`
+   2. Checkout your branch using the below command
+      `git checkout connecTech`
+   3. Start working on the test steps.
+   4. Once done merge your code with the collaborator.
+   5. The collaborator finally adds, commits and pushes the code to the remote repository using the below commands
+      ```javascript
+        git add .
+        git commit -m "Done text"
+        git push
+      ```
+2. **Group2 ETeach**
+   1. Clone the repository using the below command
+      `git clone https://github.com/ashishtayal89/ajyal_final_assessment.git`
+   2. Checkout your branch using the below command
+      `git checkout ETeach`
+   3. Start working on the test steps.
+   4. Once done merge your code with the collaborator.
+   5. The collaborator finally adds, commits and pushes the code to the remote repository using the below commands
+      ```javascript
+        git add .
+        git commit -m "Done text"
+        git push
+      ```
+3. **Group3 Advocates**
+   1. Clone the repository using the below command
+      `git clone https://github.com/ashishtayal89/ajyal_final_assessment.git`
+   2. Checkout your branch using the below command
+      `git checkout Advocates`
+   3. Start working on the test steps.
+   4. Once done merge your code with the collaborator.
+   5. The collaborator finally adds, commits and pushes the code to the remote repository using the below commands
+      ```javascript
+        git add .
+        git commit -m "Done text"
+        git push
+      ```
 
 ## TEST
 
