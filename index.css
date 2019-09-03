@@ -2,14 +2,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./loginbg.gif");
 }
 
 #form {
-  background: rgba(226, 98, 173, 0.5);
+  background: rgba(233, 146, 53);
   border-radius: 2em;
   font-family: "Oswald", sans-serif;
-  color: rgb(160, 56, 129);
+  color: rgb(97, 50, 25);
 }
 div {
   display: flex;
@@ -25,7 +27,7 @@ input {
   border-radius: 10px;
   width: 250px;
   height: 35px;
-  background: lavender;
+  background: rgb(255, 255, 255);
   outline: none;
   font-size: 20px;
   padding: 0 5px;
@@ -35,8 +37,8 @@ button {
   height: 35px;
   border-radius: 10px;
   font-size: 12px;
-  background: rgb(230, 214, 227);
-  color: rgb(150, 46, 119);
+  background: rgb(255, 255, 255);
+  color: rgb(99, 48, 9);
   cursor: pointer;
   outline: none;
 }

@@ -3,6 +3,23 @@
     <link rel="stylesheet" href="./employees.css" />
   </head>
   <body>
-    <script src="./employees.js"></script>
+    <div class="dropdown">
+      <button id="dropdownContent" class="dropbtn">Sort</button>
+      <div class="dropdown-content">
+        <a id="employee_id" href="#" onclick="sortById()">Id</a>
+        <a id="employee_salary" href="#" onclick="sortBySalary()">Salary</a>
+        <a id="employee_age" href="#" onclick="sortByAge()">Age</a>
+      </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div id="container"></div>
+    <script>
+      function myFunction() {
+        document.getElementById("dropdownContent").value = "Sort";
+      }
+    </script>
+    <script src="employees.js"></script>
   </body>
 </html>
